@@ -1,0 +1,24 @@
+{
+  "name": "changelog",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Andrew Luxem"
+  },
+  "description": "Static agent skill for producing changelog entries and release emails from shipped work without inventing impact or customer claims.",
+  "plugins": [
+    {
+      "name": "changelog",
+      "version": "1.0.0",
+      "source": "./",
+      "description": "Changelog Entry Set, Internal Release Email. Static: no network calls, no remote fetch, no auto-update. Version-pinned.",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "changelog",
+        "claude-code",
+        "release-notes",
+        "skill-md"
+      ]
+    }
+  ]
+}
